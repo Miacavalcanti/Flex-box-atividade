@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade flex-box</title>
+    <head>
+    <style>
+        .conteiner{
+            display: flex;
+            gap: 10px;
+            height: 400px;
+            flex-flow: row,wrap;
+        }
+        .rosa{
+            background-color: rgb(179, 24, 114);
+            width: 200px;
+            height: 200px;
+            border: 1px solid black;
+        }
+        .verde{background-color: rgb(28, 149, 17);
+            width: 200px;
+            height: 200px;
+            border: 1px solid black;}
+        .lilas{background-color: rgb(177, 109, 177);
+            width: 200px;
+            height: 200px;
+            border: 1px solid black;}
+        
+
+            .verticais{
+            display: flex;
+            gap: 10px;
+            height: 400px;
+            width: 600;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .amarelo{
+            background-color: rgb(246, 226, 13);
+            width: 200px;
+            height: 100px;
+            border: 1px solid black;
+           
+        }
+        .verd{background-color: rgb(6, 46, 2);
+            width: 200px;
+            height: 200px;
+            border: 1px solid black;
+          }
+        .azul{background-color: rgb(19, 6, 100);
+            width: 200px;
+            height: 250px;
+            border: 1px solid black;
+            }
+
+            .boxes{
+            display: flex;
+            gap: 10px;
+            height: 400px;
+            flex-flow: row,wrap;
+        }
+        .verm{
+            background-color: rgb(231, 16, 8);
+            width: 100px;
+            height: 100px;
+            border: 1px solid black;
+        }
+        .laran{background-color: rgb(217, 107, 3);
+            width: 100px;
+            height: 100px;
+            border: 1px solid black;}
+        .ama{background-color: rgb(225, 211, 16);
+            width: 100px;
+            height: 100px;
+            border: 1px solid black;}
+            .extra{background-color: rgb(52, 179, 24);
+            width: 100px;
+            height: 100px;
+            border: 1px solid black;
+            flex-grow: 1;}
+
+            .ordenados{
+            display: flex;
+            gap: 10px;
+            height: 400px;
+            flex-flow: row,wrap;
+        }
+        .item1{
+            background-color: rgb(9, 5, 86);
+            width: 200px;
+            height: 200px;
+            border: 1px solid black;
+            order: 2;
+        }
+        .item2{background-color: rgb(238, 246, 237);
+            width: 200px;
+            height: 200px;
+            border: 1px solid black;
+            order: 4;}
+        .item3{background-color: rgb(218, 22, 15);
+            width: 200px;
+            height: 200px;
+            border: 1px solid black;
+            order: 1;}
+            .item4{background-color: rgb(224, 248, 8);
+            width: 200px;
+            height: 200px;
+            border: 1px solid black;
+            order: 4;}
+            .item5{background-color: rgb(6, 71, 21);
+            width: 200px;
+            height: 200px;
+            border: 1px solid black;
+            order: 5;}
+
+            .divisores{
+            display: flex;
+            
+            height: 400px;
+            flex-flow: row,wrap;
+        }
+        .frente{
+            background-color: rgb(115, 218, 214);
+            width:100%;
+            height:100%;
+            border: 1px solid black;
+            align-items: baseline;
+            flex-grow: 1;
+
+        }
+        .bajo{ background-color: rgb(218, 154, 166);
+            width:100%;
+            height:100%;
+            border: 1px solid black;
+            align-items: baseline;
+            flex-grow: 1;}
+        .esq{
+            background-color: rgb(218, 154, 166);
+            width:100%;
+            height:100%;
+            border: 1px solid black;
+            flex-grow: 1;
+            
+        }
+        .dir{background-color: rgb(115, 218, 214);
+            width: 400%;
+            height:100%;
+            border: 1px solid black;
+            flex-grow: 1;
+            }
+           
+
+        
+        
+        
+    </style></head>
+    <body>
+        <h1>Questão 1</h1>
+        <br><br>
+        <div class="conteiner">
+            <div class="rosa">Rosa</div>
+        <div class="verde">Verde</div>
+    <div class="lilas">Lilás</div></div>
+    <br><br>
+            <h1>Questão 2</h1>
+            <br><br>
+    <div class="verticais">
+        <div class="amarelo">Amarelo</div>
+    <div class="verd">Verde</div>
+<div class="azul">Azul</div>
+</div>
+<br><br>
+<h1>Questão 3</h1>
+<br><br>
+<div class="boxes">
+    <div class="verm">Vermelho</div>
+<div class="laran">Laranja</div>
+<div class="ama">Amarelo</div>
+<div class="extra">Verde</div>
+</div>
+<br><br>
+<h1>Questão 4</h1>
+<br><br>
+<div class="ordenados">
+<div class="item1"><p>Item 1</p></div>
+<div class="item2"><p>Item 2</p></div>
+<div class="item3">Item 3</div>
+<div class="item4">Item 4</div>
+<div class="item5">Item 5</div>
+</div>
+<br><br>
+<h1>Questão 5</h1>
+<br><br>
+<div class="frente"><p>Cabeçalho</p></div>
+<div class="divisores">
+    
+    <div class="esq"><p>Barra lateral</p></div>
+    <div class="dir"><p>Conteúdo principal</p></div>
+    
+</div>
+<div class="bajo"><p>Rodapé</p></div>
+    </body>
+       
+      
